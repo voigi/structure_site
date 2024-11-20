@@ -36,10 +36,13 @@ text-align: center;
     width: 100%;
     margin-top: 20px;
   }
- 
+  #Reseaux a
+  {
+    display: flex;
+  }
   .social-text
   {
-   display: block;
+    display: block;
     margin-left: 10px;
    
   }
