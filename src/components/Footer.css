@@ -12,6 +12,7 @@ text-align: center;
 .social-text
 {
   display: none;
+  font-size: 2rem;
 }
 #copyright ul
 {
@@ -33,7 +34,8 @@ text-align: center;
   }
   .social-text
   {
-    display: block;
+    display: inline-block;
+    
   }
 
  }
