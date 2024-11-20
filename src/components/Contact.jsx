@@ -28,7 +28,7 @@ const Contact = () => {
       <Row className="justify-content-center">
       <Image id='imgcontact' src={imgContact} fluid/>
         <Col md={8} lg={6}>
-          <h2 className="text-center mt-4">Me contacter</h2>
+          <h2 className="text-center">Me contacter</h2>
           <Form onSubmit={handleSubmit} className="shadow p-4 rounded bg-white">
             <Form.Group className="mb-3" controlId="formName">
               <Form.Label>Nom</Form.Label>
