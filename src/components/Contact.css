@@ -1,6 +1,6 @@
 Col h2
 {
-  margin: 3px;
+  margin-top:3px;
 }
 /* Petit Desktop */
 @media (min-width: 992px) {
