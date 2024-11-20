@@ -4,6 +4,10 @@ display: none;
 text-decoration: none;
 margin-right: 2%;
 }
+.icon-sociaux
+{
+  display: block;
+}
 #Reseaux
 {
 text-align: center;

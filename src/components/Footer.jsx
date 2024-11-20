@@ -17,9 +17,9 @@ const Footer = () => {
       {/* Vous pouvez utiliser le code suivant pour les reseaux sociaux */}
 
       <div id='Reseaux'>
-        <a href="#"><FontAwesomeIcon icon={faSquareFacebook} />Adresse Facebook</a>
-        <a href="#"><FontAwesomeIcon icon={faSquareXTwitter} />Adresse Twitter</a>
-        <a href="#"><FontAwesomeIcon icon={faSquareInstagram} />Adresse Instagram</a>
+        <a href="#"><FontAwesomeIcon className='icon-sociaux' icon={faSquareFacebook} />Adresse Facebook</a>
+        <a href="#"><FontAwesomeIcon className='icon-sociaux'icon={faSquareXTwitter} />Adresse Twitter</a>
+        <a href="#"><FontAwesomeIcon className='icon-sociaux'icon={faSquareInstagram} />Adresse Instagram</a>
       </div>
     </div>
   )
