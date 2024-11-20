@@ -36,14 +36,10 @@ text-align: center;
     width: 100%;
     margin-top: 20px;
   }
-  .social-link
-  {
-     display: flex;
-  align-items: center
-  }
+ 
   .social-text
   {
-   
+   display: block;
     margin-left: 10px;
    
   }
