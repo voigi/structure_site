@@ -1,0 +1,47 @@
+#prestations_principales
+{
+ display: flex;
+}
+#prestations_principales p{
+text-align: justify;
+margin: 10px;
+}
+h2 {
+ text-align: center;   
+}
+
+#prestations_secondaires p{
+text-align: justify;
+margin: 10px;
+}
+/* Petit Desktop */
+@media (min-width: 992px) {
+    #prestations_principales
+    {
+        display: block;
+    }
+    #prestations{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 20%;
+        
+    }
+  
+ }
+ 
+ /* Desktop Standard */
+ @media (min-width: 1200px) {
+    
+ }
+ 
+ /* Grand Écran */
+ @media (min-width: 1400px) {
+    
+ }
+ 
+ /* Extra Large Écrans (optionnel) */
+ @media (min-width: 1600px) {
+     
+ }
+ 

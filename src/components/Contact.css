@@ -1,0 +1,30 @@
+/* Petit Desktop */
+@media (min-width: 992px) {
+  .justify-content-center
+{
+
+  justify-content: left !important ;
+
+}  
+#imgcontact
+{
+    width: 50%;
+}
+  
+ }
+ 
+ /* Desktop Standard */
+ @media (min-width: 1200px) {
+    
+ }
+ 
+ /* Grand Écran */
+ @media (min-width: 1400px) {
+    
+ }
+ 
+ /* Extra Large Écrans (optionnel) */
+ @media (min-width: 1600px) {
+     
+ }
+ 

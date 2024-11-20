@@ -1,0 +1,25 @@
+/* Petit Desktop */
+@media (min-width: 992px) {
+  #root
+  {
+    background: linear-gradient(135deg, #f0f0f0, #d1d1d1, #ffffff);
+
+  }
+  
+ }
+ 
+ /* Desktop Standard */
+ @media (min-width: 1200px) {
+    
+ }
+ 
+ /* Grand Écran */
+ @media (min-width: 1400px) {
+    
+ }
+ 
+ /* Extra Large Écrans (optionnel) */
+ @media (min-width: 1600px) {
+     
+ }
+ 

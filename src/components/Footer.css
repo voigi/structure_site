@@ -1,0 +1,45 @@
+#Reseaux a
+{
+text-decoration: none;
+margin-right: 2%;
+}
+#Reseaux
+{
+text-align: center;
+}
+#copyright ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+#copyright{
+    text-align:center;
+}
+/* Petit Desktop */
+@media (min-width: 992px) {
+   
+  #Reseaux 
+  {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+ }
+ 
+ /* Desktop Standard */
+ @media (min-width: 1200px) {
+    
+ }
+ 
+ /* Grand Écran */
+ @media (min-width: 1400px) {
+    
+ }
+ 
+ /* Extra Large Écrans (optionnel) */
+ @media (min-width: 1600px) {
+     
+ }
+ 

@@ -1,0 +1,24 @@
+/* Petit Desktop */
+@media (min-width: 992px) {
+   #container
+   {
+    display: flex;
+   }
+  
+ }
+ 
+ /* Desktop Standard */
+ @media (min-width: 1200px) {
+    
+ }
+ 
+ /* Grand Écran */
+ @media (min-width: 1400px) {
+    
+ }
+ 
+ /* Extra Large Écrans (optionnel) */
+ @media (min-width: 1600px) {
+     
+ }
+ 
