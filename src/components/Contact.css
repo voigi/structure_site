@@ -1,7 +1,4 @@
-Col h2
-{
-  margin-top:3px;
-}
+
 /* Petit Desktop */
 @media (min-width: 992px) {
   .justify-content-center
