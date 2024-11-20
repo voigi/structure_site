@@ -9,6 +9,10 @@ margin-right: 2%;
 {
 text-align: center;
 }
+.social-text
+{
+  display: none;
+}
 #copyright ul
 {
     list-style-type: none;
@@ -26,6 +30,10 @@ text-align: center;
     justify-content: space-around;
     width: 100%;
     margin-top: 20px;
+  }
+  .social-text
+  {
+    display: block;
   }
 
  }
