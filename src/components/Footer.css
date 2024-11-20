@@ -36,13 +36,16 @@ text-align: center;
     width: 100%;
     margin-top: 20px;
   }
- 
+  .social-link
+  {
+     display: flex;
+  align-items: center
+  }
   .social-text
   {
    
     margin-left: 10px;
-    display: flex;
-  align-items: center
+   
   }
   .icon-sociaux
   {
