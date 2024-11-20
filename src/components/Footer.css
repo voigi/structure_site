@@ -43,7 +43,10 @@ text-align: center;
     margin-left: 10px;
     
   }
-
+  .icon-sociaux
+  {
+    font-size: 1.25rem;
+  }
  }
  
  /* Desktop Standard */
