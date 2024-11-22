@@ -56,7 +56,9 @@
         margin-left: 2vw;
         
     }
-  
+    .prestation {
+       text-align: justify;
+    }
  }
  
  /* Desktop Standard */
