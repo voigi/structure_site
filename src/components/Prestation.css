@@ -5,6 +5,7 @@
 #prestations_principales p{
 text-align: justify;
 margin: 10px;
+
 }
 h2 {
  text-align: center;   
@@ -19,6 +20,7 @@ margin: 10px;
     #prestations_principales
     {
         display: block;
+        margin-left: 2vw;
     }
     #prestations{
         display: flex;
