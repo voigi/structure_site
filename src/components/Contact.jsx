@@ -6,6 +6,7 @@ import imgContact from "../assets/contact.jpg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
+    surname:"",
     name: "",
     email: "",
     subject: "Demande générale",
@@ -17,6 +18,7 @@ const Contact = () => {
 
   const validateForm = () => {
     const newErrors = {};
+    if (!formData.surname.trim()) newErrors.name = "Le prenom est requis.";
     if (!formData.name.trim()) newErrors.name = "Le nom est requis.";
     if (!formData.email.trim()) {
       newErrors.email = "L'email est requis.";
@@ -56,6 +58,20 @@ const Contact = () => {
           <h2 className="text-center">Me contacter</h2>
           {!submitted ? (
             <Form onSubmit={handleSubmit} className="shadow p-4 rounded bg-white">
+          <Form.Group className="mb-3" controlId="formSurname">
+                <Form.Label>Prenom</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="Jean"
+                  name="surname"
+                  value={formData.surname}
+                  onChange={handleChange}
+                  isInvalid={!!errors.surname}
+                />
+                <Form.Control.Feedback type="invalid">
+                  {errors.surname}
+                </Form.Control.Feedback>
+              </Form.Group>
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Label>Nom</Form.Label>
                 <Form.Control
@@ -128,6 +144,7 @@ const Contact = () => {
                 variant="secondary"
                 onClick={() => {
                   setFormData({
+                    surname :"",
                     name: "",
                     email: "",
                     subject: "Demande générale",
