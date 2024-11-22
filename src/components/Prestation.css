@@ -20,13 +20,14 @@ margin: 10px;
     #prestations_principales
     {
         display: block;
-        margin-left: 2vw;
+       
     }
     #prestations{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         width: 20%;
+        margin-left: 2vw;
         
     }
   
