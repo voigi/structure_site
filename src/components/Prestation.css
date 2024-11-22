@@ -1,19 +1,25 @@
-#prestations_principales
-{
- display: flex;
+#prestations_principales {
+    display: flex;             /* Utilisation de flex pour structurer */
+    flex-direction: column;    /* Empile les éléments verticalement */
+    align-items: center;       /* Centre les enfants horizontalement */
+    width: 100%;               /* Prend toute la largeur disponible */
+    margin: 0 auto;            /* Centre sur l'écran */
+    padding: 10px;             /* Ajoute un espace intérieur */
+    box-sizing: border-box;    /* Inclut les marges et paddings dans la largeur totale */
 }
-#prestations_principales p{
-text-align: justify;
-margin: 10px;
 
+#prestations_principales p {
+    text-align: justify;       /* Justifie le texte pour un rendu élégant */
+    margin: 10px 0;            /* Marges verticales égales */
 }
+
 h2 {
- text-align: center;   
+    text-align: center;        /* Centre le titre */
 }
 
-#prestations_secondaires p{
-text-align: justify;
-margin: 10px;
+#prestations_secondaires p {
+    text-align: justify;       /* Justifie aussi les textes secondaires */
+    margin: 10px;              /* Marges uniformes */
 }
 /* Petit Desktop */
 @media (min-width: 992px) {
