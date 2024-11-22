@@ -40,30 +40,6 @@
     gap: 10px;
 }
 
-/* Responsive : alignement côte à côte sur écrans plus larges */
-@media (min-width: 992px) {
-    #prestations_principales {
-        flex-direction: row; /* Aligne les prestations principales côte à côte */
-        justify-content: space-between; /* Espace entre les prestations */
-    }
-
-    #prestations_secondaires {
-        flex-direction: row; /* Aligne les prestations secondaires côte à côte */
-        justify-content: space-between;
-    }
-
-    .prestation {
-        margin: 0 10px; /* Ajoute de l'espacement horizontal entre les prestations */
-    }
-}
-
-/* Grand écran : ajustement supplémentaire */
-@media (min-width: 1200px) {
-    #prestations {
-        width: 80%; /* Réduit la largeur pour un design plus centré */
-    }
-}
-
 
 /* Petit Desktop */
 @media (min-width: 992px) {
