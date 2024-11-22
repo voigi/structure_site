@@ -1,32 +1,70 @@
+/* Styles généraux */
+#prestations {
+    display: flex;
+    flex-direction: column; /* Empile les sections principales et secondaires sur mobile */
+    gap: 20px; /* Ajoute un espacement entre les sections principales et secondaires */
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#prestations h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.prestation {
+    background-color: #f5f5f5; /* Fond pour visualiser les divs */
+    padding: 10px;
+    border-radius: 8px; /* Coins arrondis pour un design moderne */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Légère ombre pour distinguer les blocs */
+    flex: 1; /* Permet une largeur flexible en mode flexbox */
+    text-align: justify;
+}
+
+/* Section principale : alignement côte à côte des prestations */
 #prestations_principales {
-    display: flex;             /* Active Flexbox */
-    flex-direction: row;       /* Aligne les enfants côte à côte */
-    justify-content: space-between; /* Ajoute de l'espace entre les enfants */
-    align-items: center;       /* Centre verticalement */
-    width: 100%;               /* Prend toute la largeur */
-    gap: 10px;                 /* Ajoute un espace entre les éléments (équivalent à une marge intérieure entre les enfants) */
-    margin: 0 auto;            /* Centre le conteneur */
-    padding: 10px;             /* Ajoute un espacement intérieur */
-    box-sizing: border-box;    /* Inclut les marges/paddings dans la largeur */
+    display: flex;
+    flex-direction: column; /* Empile sur mobile (par défaut) */
+    gap: 10px; /* Espacement entre les prestations principales */
 }
 
-#prestations_principales p {
-    height: 150px;             /* Fixe une hauteur réduite pour les divs enfants */
-    margin: 0;                 /* Réinitialise les marges externes */
-    padding: 10px;             /* Ajoute un espace intérieur */
-    background-color: #f5f5f5; /* Ajoute une couleur d'arrière-plan pour visualiser les marges */
-    text-align: justify;       /* Justifie le texte */
-    flex: 1;                   /* Permet aux enfants de s'ajuster automatiquement */
+#prestations_principales .prestation {
+    height: auto; /* Ajuste automatiquement à la hauteur du contenu */
 }
 
-h2 {
-    text-align: center;        /* Centre le titre */
+/* Section secondaire : même logique que principale */
+#prestations_secondaires {
+    display: flex;
+    flex-direction: column; /* Empile sur mobile */
+    gap: 10px;
 }
 
-#prestations_secondaires p {
-    text-align: justify;       /* Justifie aussi les textes secondaires */
-    margin: 10px;              /* Marges uniformes */
+/* Responsive : alignement côte à côte sur écrans plus larges */
+@media (min-width: 992px) {
+    #prestations_principales {
+        flex-direction: row; /* Aligne les prestations principales côte à côte */
+        justify-content: space-between; /* Espace entre les prestations */
+    }
+
+    #prestations_secondaires {
+        flex-direction: row; /* Aligne les prestations secondaires côte à côte */
+        justify-content: space-between;
+    }
+
+    .prestation {
+        margin: 0 10px; /* Ajoute de l'espacement horizontal entre les prestations */
+    }
 }
+
+/* Grand écran : ajustement supplémentaire */
+@media (min-width: 1200px) {
+    #prestations {
+        width: 80%; /* Réduit la largeur pour un design plus centré */
+    }
+}
+
+
 /* Petit Desktop */
 @media (min-width: 992px) {
     #prestations_principales
