@@ -1,16 +1,22 @@
 #prestations_principales {
-    display: flex;             /* Utilisation de flex pour structurer */
-    flex-direction: column;    /* Empile les éléments verticalement */
-    align-items: center;       /* Centre les enfants horizontalement */
-    width: 100%;               /* Prend toute la largeur disponible */
-    margin: 0 auto;            /* Centre sur l'écran */
-    padding: 10px;             /* Ajoute un espace intérieur */
-    box-sizing: border-box;    /* Inclut les marges et paddings dans la largeur totale */
+    display: flex;             /* Active Flexbox */
+    flex-direction: row;       /* Aligne les enfants côte à côte */
+    justify-content: space-between; /* Ajoute de l'espace entre les enfants */
+    align-items: center;       /* Centre verticalement */
+    width: 100%;               /* Prend toute la largeur */
+    gap: 10px;                 /* Ajoute un espace entre les éléments (équivalent à une marge intérieure entre les enfants) */
+    margin: 0 auto;            /* Centre le conteneur */
+    padding: 10px;             /* Ajoute un espacement intérieur */
+    box-sizing: border-box;    /* Inclut les marges/paddings dans la largeur */
 }
 
 #prestations_principales p {
-    text-align: justify;       /* Justifie le texte pour un rendu élégant */
-    margin: 10px 0;            /* Marges verticales égales */
+    height: 150px;             /* Fixe une hauteur réduite pour les divs enfants */
+    margin: 0;                 /* Réinitialise les marges externes */
+    padding: 10px;             /* Ajoute un espace intérieur */
+    background-color: #f5f5f5; /* Ajoute une couleur d'arrière-plan pour visualiser les marges */
+    text-align: justify;       /* Justifie le texte */
+    flex: 1;                   /* Permet aux enfants de s'ajuster automatiquement */
 }
 
 h2 {
