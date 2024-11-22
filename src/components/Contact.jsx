@@ -18,7 +18,7 @@ const Contact = () => {
 
   const validateForm = () => {
     const newErrors = {};
-    if (!formData.surname.trim()) newErrors.name = "Le prenom est requis.";
+    if (!formData.surname.trim()) newErrors.surname = "Le prenom est requis.";
     if (!formData.name.trim()) newErrors.name = "Le nom est requis.";
     if (!formData.email.trim()) {
       newErrors.email = "L'email est requis.";
@@ -76,7 +76,7 @@ const Contact = () => {
                 <Form.Label>Nom</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Jean Dupont"
+                  placeholder="Dupont"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
