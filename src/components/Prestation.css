@@ -57,7 +57,10 @@
         
     }
     .prestation {
+        background-color: transparent;;
        text-align: justify;
+       border-radius: 0;
+       box-shadow: none;
     }
  }
  
