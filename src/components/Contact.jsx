@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <Container className="py-2 mt-4">
       <Row className="justify-content-center">
-        <Image id="imgcontact" src={imgContact} fluid />
+        <Image id="imgcontact" className="shadow p-4 rounded" src={imgContact} fluid />
         <Col md={8} lg={6}>
           <h2 className="text-center">Me contacter</h2>
           {!submitted ? (
