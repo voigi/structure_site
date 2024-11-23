@@ -26,7 +26,7 @@ const Naviguation = () => {
 
       <Navbar.Collapse id="basic-navbar-nav">
         {/* Liens alignés à droite */}
-        <Nav className="ms-auto">
+        <Nav className="ms-auto" style={{position:"relative",left:"7vw"}}>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
