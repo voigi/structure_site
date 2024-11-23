@@ -24,8 +24,8 @@ form
 #imgcontact
 {
     width: 50%;
-    border-radius: 22px;
-    margin-bottom: 6.4vh;
+    border-radius: 22px !important;
+    margin-top: 6.4vh;
     
 }
 .text-center{
