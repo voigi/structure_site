@@ -4,7 +4,7 @@ import  '../components/Photo.css';
 
 const Photo = () => {
   return (
-   <Image id='imgpage' src="https://picsum.photos/1280/720" fluid/>
+   <Image id='imgpage' src="https://picsum.photos/1280/300" fluid/>
   )
 }
 
