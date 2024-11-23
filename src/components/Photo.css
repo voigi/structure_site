@@ -9,6 +9,7 @@
 #imgpage
 {
     width: 80%;
+    height: 500px;
 }
 @media (min-width: 1800px) {
    #imgpage
