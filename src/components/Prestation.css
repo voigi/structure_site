@@ -16,8 +16,8 @@
 .prestation {
   /*  background-color: #f5f5f5;  Fond pour visualiser les divs */
     padding: 10px;
-    border-radius: 8px; /* Coins arrondis pour un design moderne */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Légère ombre pour distinguer les blocs */
+   /* border-radius: 8px;  Coins arrondis pour un design moderne */
+   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Légère ombre pour distinguer les blocs */
     flex: 1; /* Permet une largeur flexible en mode flexbox */
     text-align: justify;
 }
