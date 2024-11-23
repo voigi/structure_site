@@ -83,6 +83,10 @@
      
  }
  @media (min-width: 1800px) {
-   
+    .ms-auto
+    {
+        position: relative !important;
+        left: 11vw !important;
+    }
  }
  
