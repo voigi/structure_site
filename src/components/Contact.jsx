@@ -57,7 +57,7 @@ const Contact = () => {
         <Col md={8} lg={6}>
           <h2 className="text-center">Me contacter</h2>
           {!submitted ? (
-            <Form onSubmit={handleSubmit} className="shadow p-4 rounded bg-white">
+            <Form onSubmit={handleSubmit} className="shadow p-4  bg-white">
           <Form.Group className="mb-3" controlId="formSurname">
                 <Form.Label>Prenom</Form.Label>
                 <Form.Control
