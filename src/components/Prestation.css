@@ -82,4 +82,11 @@
  @media (min-width: 1600px) {
      
  }
+ @media (min-width: 1800px) {
+    ms-auto
+    {
+        position: relative;
+        left: 10vw;
+    }
+ }
  
