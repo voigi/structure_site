@@ -2,7 +2,15 @@
 {
   margin-top: 1.5rem;
 }
-
+#imgcontact
+{
+  border-radius: 22px;
+  margin-bottom: 6.4vh;
+}
+form
+{
+ border-radius: 20px;
+}
 
 
 /* Petit Desktop */
@@ -16,6 +24,7 @@
 #imgcontact
 {
     width: 50%;
+    
 }
 .text-center{
   margin-top: 0;
