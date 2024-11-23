@@ -25,7 +25,7 @@ form
 {
     width: 50%;
     border-radius: 22px !important;
-    margin-top: 5vh;
+    margin-top: 6.4vh;
     
 }
 .text-center{
@@ -47,5 +47,14 @@ form
  /* Extra Large Écrans (optionnel) */
  @media (min-width: 1600px) {
      
+ }
+ @media (min-width: 1800px) {
+  #imgcontact
+  {
+      width: 50%;
+      border-radius: 22px !important;
+      margin-top: 5vh;
+      
+  }
  }
  
