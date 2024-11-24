@@ -9,6 +9,10 @@
     background-color: #121212;
     color: #e0e0e0; /* Couleur de texte par défaut */
   }
+  body[data-bs-theme="dark"] label {
+    
+    color: #b5b6b8 /* Couleur de texte par défaut */
+  }
   
   body[data-bs-theme="dark"] h1,
   body[data-bs-theme="dark"] p {
