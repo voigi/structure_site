@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx';
-import './components/Switch.js';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
