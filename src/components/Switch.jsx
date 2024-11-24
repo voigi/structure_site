@@ -1,6 +1,6 @@
 import React from 'react'
 import './Switch.css'
-import'./Switch.js'
+import'./Switch'
 
 const Switch = () => {
   return (
