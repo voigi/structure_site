@@ -13,6 +13,10 @@
     
     color: #b5b6b8 /* Couleur de texte par défaut */
   }
+  body[data-bs-theme="dark"] form {
+    
+    background-color: #121212; /* Couleur de texte par défaut */
+  }
   
   body[data-bs-theme="dark"] h1,
   body[data-bs-theme="dark"] p {
