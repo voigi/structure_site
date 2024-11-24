@@ -10,6 +10,10 @@
 
 /* Petit Desktop */
 @media (min-width: 992px) {
+   .form-check{
+    position: absolute;
+    left: 17vw;
+   } 
 
  }
  
