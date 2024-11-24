@@ -25,7 +25,11 @@ body[data-bs-theme="dark"] form {
     background-color: #121212 !important; /* Couleur de texte par défaut */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)!important;
   }
-  
+  body[data-bs-theme="light"] form {
+    
+    background-color: lightgray !important; /* Couleur de texte par défaut */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)!important;
+  }
   body[data-bs-theme="dark"] h1,
   body[data-bs-theme="dark"] p {
     color: #ffffff; /* Couleur spécifique pour des titres */
