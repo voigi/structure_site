@@ -1,3 +1,13 @@
+body[data-bs-theme="dark"] label {
+    
+  color: #b5b6b8 /* Couleur de texte par défaut */
+}
+body[data-bs-theme="dark"] form {
+  
+  background-color: #121212 !important; /* Couleur de texte par défaut */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)!important;
+}
+
 /* Petit Desktop */
 @media (min-width: 992px) {
   #root
