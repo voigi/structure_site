@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/react-b.svg';
+import Switch from '../components/Switch';
 
 const Naviguation = () => {
   return (
@@ -20,7 +21,7 @@ const Naviguation = () => {
             />{' '}
             React Bootstrap
           </Navbar.Brand>
-
+         <Switch/>
       {/* Bouton pour les mobiles */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
