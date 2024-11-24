@@ -1,0 +1,32 @@
+
+/*Mobile */
+.form-check
+{
+    position: absolute;
+    left: 16vw;
+}
+
+
+
+/* Petit Desktop */
+@media (min-width: 992px) {
+
+ }
+ 
+ /* Desktop Standard */
+ @media (min-width: 1200px) {
+    
+ }
+ 
+ /* Grand Écran */
+ @media (min-width: 1400px) {
+    
+ }
+ 
+ /* Extra Large Écrans (optionnel) */
+ @media (min-width: 1600px) {
+     
+ }
+ @media (min-width: 1800px) {
+    
+ }
