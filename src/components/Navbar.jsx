@@ -24,8 +24,10 @@ const Naviguation = () => {
           </Navbar.Brand>
 
         <div>
-         <Switch/>
-        <div/>
+          <Switch/>
+        </div> 
+         
+      
 
       {/* Bouton pour les mobiles */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
