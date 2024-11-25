@@ -20,10 +20,12 @@ const Naviguation = () => {
               className="d-inline-block align-top"
             />{' '}
             React Bootstrap
- <Switch/>
+ 
           </Navbar.Brand>
 
-        <div><Switch/><div/>
+        <div>
+         <Switch/>
+        <div/>
 
       {/* Bouton pour les mobiles */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
