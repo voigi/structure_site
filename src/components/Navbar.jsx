@@ -22,7 +22,7 @@ const Naviguation = () => {
             React Bootstrap
  <Switch/>
           </Navbar.Brand>
-        essai <Switch/>
+        <div><Switch/><div/>
       {/* Bouton pour les mobiles */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
