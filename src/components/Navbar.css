@@ -1,4 +1,4 @@
-.switch-class {
+.navbar .switch-class {
     position: relative; /* Nécessaire pour l'absolute position du switch */
     transition: transform 0.3s ease; /* Transition fluide */
   }
