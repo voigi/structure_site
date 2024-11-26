@@ -37,6 +37,10 @@
  
  /* Desktop Standard */
  @media (min-width: 1200px) {
+  #flexSwitchCheckDefault
+  {
+    left: 38vw;
+  }
     
  }
  
