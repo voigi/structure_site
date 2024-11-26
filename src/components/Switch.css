@@ -6,7 +6,7 @@
     left: 16vw;
     bottom: 1vh;
 }
-.form-check-input
+#flexSwitchCheckDefault
 {
   width: '60px' !important; 
   height: '30px' !important; 
