@@ -15,7 +15,13 @@
 }
 
 
-
+@media (min-width: 768px) {
+ #flexSwitchCheckDefault
+ {
+  right: 17vw;
+ }
+ 
+}
 /* Petit Desktop */
 @media (min-width: 992px) {
    .form-check{
