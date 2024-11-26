@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import './Switch.css';
 
-const Switch = () => {
+const Switch = ({isNavbarOpen}) => {
   // Gère l'état du thème
   const [isDark, setIsDark] = useState(false);
 
