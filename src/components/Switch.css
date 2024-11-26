@@ -60,3 +60,10 @@
      top: 0.5vh;
   }
  }
+ @media (min-width: 2000px) {
+  #flexSwitchCheckDefault
+  {
+     left: 31vw;
+     top: 0.5vh;
+  }
+ }
