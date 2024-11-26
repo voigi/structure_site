@@ -1,15 +1,15 @@
 .switch-class {
-    position: relative; /* Positionne le Switch par rapport à son parent */
-    transition: bottom 0.3s ease; /* Animation fluide */
+    position: relative; /* Nécessaire pour l'absolute position du switch */
+    transition: transform 0.3s ease; /* Transition fluide */
   }
   
   .switch-open {
-    position: absolute; /* Fige le Switch */
-    bottom: 13vh; /* Ajuste selon la hauteur de ta navbar */
+    position: absolute; /* Positionné de façon absolue */
+    transform: translateY(50px); /* Déplace le Switch vers le bas lors de l'ouverture */
   }
   
   .switch-closed {
     position: absolute;
-    bottom: 0; /* Retourne à la position initiale */
+    transform: translateY(0); /* Position de départ lorsque la navbar est fermée */
   }
   
