@@ -3,7 +3,8 @@
   }
   
   .switch-open {
-    margin-top: 50px; /* Ajuste la valeur en fonction de la hauteur de ta navbar */
+    position:absolute;
+    bottom: 13vh; /* Ajuste la valeur en fonction de la hauteur de ta navbar */
   }
   
   .switch-closed {
