@@ -25,9 +25,7 @@ const Naviguation = () => {
  
           </Navbar.Brand>
 
-        <div className={`switch-class ${isNavbarOpen ? 'switch-open' : 'switch-closed'}`}>
-          <Switch/>
-        </div> 
+      
          
       
 
@@ -52,6 +50,9 @@ const Naviguation = () => {
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
+      <div className={`switch-class ${isNavbarOpen ? 'switch-open' : 'switch-closed'}`}>
+          <Switch/>
+        </div> 
     </Container>
   </Navbar>
   )
