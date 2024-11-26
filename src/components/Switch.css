@@ -24,7 +24,7 @@
    } 
    #flexSwitchCheckDefault
    {
-      left: 33vw;
+      left: 35vw;
       top: 0.5vh;
    }
  }
@@ -44,5 +44,9 @@
      
  }
  @media (min-width: 1800px) {
-    
+  #flexSwitchCheckDefault
+  {
+     left: 33vw;
+     top: 0.5vh;
+  }
  }
