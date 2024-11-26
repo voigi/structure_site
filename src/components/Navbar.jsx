@@ -5,7 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/react-b.svg';
 import Switch from '../components/Switch';
-import { useState } from 'react';
 import './Navbar.css';
 
 const Naviguation = () => {
