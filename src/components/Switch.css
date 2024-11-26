@@ -22,7 +22,11 @@
     position: absolute;
     left: 17vw;
    } 
-
+   #flexSwitchCheckDefault
+   {
+      right: 50vw;
+      top: 0.5vh;
+   }
  }
  
  /* Desktop Standard */
