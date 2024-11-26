@@ -3,13 +3,5 @@
     transition: transform 0.3s ease; /* Transition fluide */
   }
   
-  .switch-open {
-    position: absolute; /* Positionné de façon absolue */
-    transform: translateY(50px); /* Déplace le Switch vers le bas lors de l'ouverture */
-  }
-  
-  .switch-closed {
-    position: absolute;
-    transform: translateY(0); /* Position de départ lorsque la navbar est fermée */
-  }
+
   
