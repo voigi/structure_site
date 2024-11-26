@@ -1,0 +1,12 @@
+.switch-class {
+    transition: margin-top 0.3s ease; /* Animation fluide */
+  }
+  
+  .switch-open {
+    margin-top: 50px; /* Ajuste la valeur en fonction de la hauteur de ta navbar */
+  }
+  
+  .switch-closed {
+    margin-top: 0;
+  }
+  

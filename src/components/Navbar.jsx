@@ -1,14 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/react-b.svg';
 import Switch from '../components/Switch';
+import { useState } from 'react';
+import './Navbar.css';
 
 const Naviguation = () => {
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary"  onToggle={(expanded) => setIsNavbarOpen(expanded)}>
     <Container>
       {/* Logo à gauche */}
       <Navbar.Brand href="#home">
@@ -23,7 +26,7 @@ const Naviguation = () => {
  
           </Navbar.Brand>
 
-        <div>
+        <div className={`switch-class ${isNavbarOpen ? 'switch-open' : 'switch-closed'}`}>
           <Switch/>
         </div> 
          
