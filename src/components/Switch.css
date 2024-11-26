@@ -51,12 +51,16 @@
  
  /* Extra Large Écrans (optionnel) */
  @media (min-width: 1600px) {
-     
+  #flexSwitchCheckDefault
+  {
+    right: 37vw;
+    top: 0.5vh;
+  }
  }
  @media (min-width: 1800px) {
   #flexSwitchCheckDefault
   {
-     left: 31vw;
+     left: 33vw;
      top: 0.5vh;
   }
  }
