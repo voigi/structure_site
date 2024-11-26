@@ -25,10 +25,8 @@ const Naviguation = () => {
  
           </Navbar.Brand>
 
-        <div className={`switch-class ${isNavbarOpen ? 'switch-open' : 'switch-closed'}`}>
-          <Switch/>
-        </div> 
-         
+          <Switch isNavbarOpen={isNavbarOpen}/>
+        
       
 
       {/* Bouton pour les mobiles */}
